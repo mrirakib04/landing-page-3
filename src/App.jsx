@@ -1,9 +1,13 @@
 import "./App.css";
 import bannerPhoto from "./assets/images/banner-image.png";
+import hIMG1 from "./assets/images/image1.png";
+import hIMG2 from "./assets/images/image2.png";
+import hIMG3 from "./assets/images/image3.png";
+import hIMG4 from "./assets/images/image4.png";
 
 function App() {
   return (
-    <div className=".body-style">
+    <div className="body-style">
       {/* header */}
       <header>
         <nav>
@@ -69,6 +73,60 @@ function App() {
           </div>
         </div>
       </header>
+      <main>
+        {/* habits section */}
+        <section className="habits">
+          <div className="section-content">
+            <h2 className="section-title">Change Your Habits</h2>
+            <p className="section-info">
+              Change begins with a single step. Small, daily fitness habits
+              build strength, endurance, and a healthier, happier you.
+            </p>
+          </div>
+          <div className="habits-content">
+            <div className="habits-image-content">
+              <div className="habits-image">
+                <img src={hIMG1} alt="" />
+              </div>
+              <h4>Movement</h4>
+              <p>
+                Daily small movements build fitness and lead to a healthier &
+                happier you.
+              </p>
+            </div>
+            <div className="habits-image-content">
+              <div className="habits-image">
+                <img src={hIMG2} alt="" />
+              </div>
+              <h4>Time</h4>
+              <p>
+                Manage your time wisely to prioritize fitness; consistency
+                ensures lasting results.
+              </p>
+            </div>
+            <div className="habits-image-content">
+              <div className="habits-image">
+                <img src={hIMG3} alt="" />
+              </div>
+              <h4>Practice</h4>
+              <p>
+                Consistent practice habits turn fitness goals into everyday
+                achievements.
+              </p>
+            </div>
+            <div className="habits-image-content">
+              <div className="habits-image">
+                <img src={hIMG4} alt="" />
+              </div>
+              <h4>Weight Loss</h4>
+              <p>
+                Weight loss success comes from persistence and healthy lifestyle
+                choices.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
   );
 }
