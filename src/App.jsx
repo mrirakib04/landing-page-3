@@ -11,6 +11,12 @@ import excerciseIMG3 from "./assets/images/exercise3.png";
 import excerciseIMG4 from "./assets/images/exercise4.png";
 import excerciseIMG5 from "./assets/images/exercise5.jpg";
 import excerciseIMG6 from "./assets/images/exercise6.jpg";
+import trainerIMG1 from "./assets/images/trainer1.png";
+import trainerIMG2 from "./assets/images/trainer2.png";
+import trainerIMG3 from "./assets/images/trainer3.png";
+import trainerIMG4 from "./assets/images/trainer4.png";
+import trainerIMG5 from "./assets/images/trainer5.png";
+import trainerIMG6 from "./assets/images/trainer6.png";
 
 function App() {
   return (
@@ -271,6 +277,61 @@ function App() {
             </div>
           </div>
         </div>
+        {/* team section  */}
+        <section className="team">
+          <div className="team-content">
+            <h2 className="section-title">Meet Our Team</h2>
+            <p className="section-info">
+              A gym instructor guides your fitness journey with expertise and
+              motivation. Their support helps you achieve goals and maximize
+              results.
+            </p>
+          </div>
+          <div className="team-members">
+            <div className="single-member">
+              <img src={trainerIMG1} alt="" />
+              <div className="member-info">
+                <h4>Jerome Bell</h4>
+                <p>Trainer</p>
+              </div>
+            </div>
+            <div className="single-member">
+              <img src={trainerIMG2} alt="" />
+              <div className="member-info">
+                <h4>Cameron Williamson</h4>
+                <p>Trainer</p>
+              </div>
+            </div>
+            <div className="single-member">
+              <img src={trainerIMG3} alt="" />
+              <div className="member-info">
+                <h4>Darrell Steward</h4>
+                <p>Trainer</p>
+              </div>
+            </div>
+            <div className="single-member">
+              <img src={trainerIMG4} alt="" />
+              <div className="member-info">
+                <h4>Dianne Russell</h4>
+                <p>Trainer</p>
+              </div>
+            </div>
+            <div className="single-member">
+              <img src={trainerIMG5} alt="" />
+              <div className="member-info">
+                <h4>Cody Fisher</h4>
+                <p>Trainer</p>
+              </div>
+            </div>
+            <div className="single-member">
+              <img src={trainerIMG6} alt="" />
+              <div className="member-info">
+                <h4>Theresa Webb</h4>
+                <p>Trainer</p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );

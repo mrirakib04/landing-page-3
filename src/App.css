@@ -361,3 +361,36 @@ header ul li a:hover {
 .bmi-calculate button {
   margin-top: 30px;
 }
+
+/* team section */
+.team-content {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.team-members {
+  max-width: 1060px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.single-member img {
+  height: 270px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+  filter: brightness(70%);
+}
+.single-member {
+  position: relative;
+}
+.member-info {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
