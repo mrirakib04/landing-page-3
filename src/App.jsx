@@ -5,6 +5,12 @@ import hIMG2 from "./assets/images/image2.png";
 import hIMG3 from "./assets/images/image3.png";
 import hIMG4 from "./assets/images/image4.png";
 import runIMG from "./assets/images/run.jpg";
+import excerciseIMG1 from "./assets/images/exercise1.jpg";
+import excerciseIMG2 from "./assets/images/exercise2.png";
+import excerciseIMG3 from "./assets/images/exercise3.png";
+import excerciseIMG4 from "./assets/images/exercise4.png";
+import excerciseIMG5 from "./assets/images/exercise5.jpg";
+import excerciseIMG6 from "./assets/images/exercise6.jpg";
 
 function App() {
   return (
@@ -147,6 +153,43 @@ function App() {
             </div>
             <div className="run-image">
               <img src={runIMG} alt="" />
+            </div>
+          </div>
+        </section>
+        {/* training section  */}
+        <section className="training">
+          <div className="training-content">
+            <h2 className="section-title">Trainings and Exercises</h2>
+            <p className="section-info">
+              Effective training and exercise are essential for fitness.
+              Consistent effort transforms your body, enhances strength, and
+              boosts overall health.
+            </p>
+          </div>
+          <div className="training-image">
+            <div className="training-image-box exercise-image1">
+              <img src={excerciseIMG1} alt="" />
+              <p>Leg press</p>
+            </div>
+            <div className="training-image-box exercise-image2">
+              <img src={excerciseIMG2} alt="" />
+              <p>Push ups</p>
+            </div>
+            <div className="training-image-box exercise-image3">
+              <img src={excerciseIMG3} alt="" />
+              <p>Jump workout</p>
+            </div>
+            <div className="training-image-box exercise-image4">
+              <img src={excerciseIMG4} alt="" />
+              <p>Leg exercise</p>
+            </div>
+            <div className="training-image-box exercise-image5">
+              <img src={excerciseIMG5} alt="" />
+              <p>Leg workout</p>
+            </div>
+            <div className="training-image-box exercise-image6">
+              <img src={excerciseIMG6} alt="" />
+              <p>Sit ups</p>
             </div>
           </div>
         </section>
