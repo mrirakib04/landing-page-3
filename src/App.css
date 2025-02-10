@@ -276,3 +276,88 @@ header ul li a:hover {
   padding: 5px 10px;
   border-radius: 10px;
 }
+
+/* calculator section */
+.calculator {
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.calculator2 {
+  background-color: #222222;
+  padding: 10px;
+}
+.calculator-content {
+  padding: 50px 0;
+  max-width: 1060px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.calculator-content h3 {
+  font-size: 28px;
+}
+.calculator-content p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 14px;
+}
+.calculator-chart table {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-collapse: collapse;
+  margin-top: 30px;
+  text-align: left;
+}
+.calculator-chart th,
+.calculator-chart td {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 5px 15px;
+}
+.calculator-chart th {
+  font-size: 16px;
+}
+.calculator-chart td {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.input-table {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input-table input,
+.input-table select {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 0;
+  color: rgba(239, 237, 232, 0.5);
+}
+.input-table input::placeholder,
+.input-table select {
+  padding-left: 10px;
+}
+.input-table select {
+  cursor: pointer;
+  color: rgba(239, 237, 232, 0.5);
+}
+.input-table select option {
+  background-color: #222222;
+  border: none;
+}
+.input-row-col2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.input-row-col1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.bmi-calculate button {
+  margin-top: 30px;
+}

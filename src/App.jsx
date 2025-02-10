@@ -193,6 +193,84 @@ function App() {
             </div>
           </div>
         </section>
+        {/* calculator section  */}
+        <section className="calculator">
+          <h2 className="section-title">BMI Calculator</h2>
+          <p className="section-info">
+            Monitor your fitness progress with a BMI calculator. It offers
+            valuable information on body weight relative to height and overall
+            health.
+          </p>
+        </section>
+        <div className="calculator2">
+          <div className="calculator-content">
+            <div className="calculator-chart">
+              <h3>BMI Calculator Chart</h3>
+              <table>
+                <thead>
+                  <tr>
+                    <th>BMI</th>
+                    <th>Weight Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Below 18.5</td>
+                    <td>Underweight</td>
+                  </tr>
+                  <tr>
+                    <td>18.5 - 24.9</td>
+                    <td>Healthy</td>
+                  </tr>
+                  <tr>
+                    <td>25.0 - 29.9</td>
+                    <td>Overweight</td>
+                  </tr>
+                  <tr>
+                    <td>30.0 - and Above</td>
+                    <td>Obese</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="bmi-calculate">
+              <h3>Calculate your BMI</h3>
+              <p>
+                BMI calculators help gauge body fat levels. Regular checks can
+                guide your fitness journey and adjustments for a healthier
+                lifestyle.
+              </p>
+              <div className="input-table">
+                <div className="input-row-col2">
+                  <input type="number" placeholder="Height/cm" />
+                  <input type="number" placeholder="Weight/kg" />
+                </div>
+                <div className="input-row-col2">
+                  <input type="number" placeholder="Age" />
+                  <select>
+                    <option value="">Gender</option>
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                    <option value="">Other</option>
+                  </select>
+                </div>
+                <div className="input-row-col1">
+                  <select name="" id="">
+                    <option value="">Select an activity factor</option>
+                    <option value="">Light exercise (1-3 days per week)</option>
+                    <option value="">
+                      Moderate exercise (3-5 days per week)
+                    </option>
+                    <option value="">Heavy exercise (6-7 days per week)</option>
+                  </select>
+                </div>
+              </div>
+              <button className="btn-primary hover:bg-[#e6533c]/60! transition">
+                Calculate
+              </button>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   );
