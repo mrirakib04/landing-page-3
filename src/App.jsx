@@ -4,6 +4,7 @@ import hIMG1 from "./assets/images/image1.png";
 import hIMG2 from "./assets/images/image2.png";
 import hIMG3 from "./assets/images/image3.png";
 import hIMG4 from "./assets/images/image4.png";
+import runIMG from "./assets/images/run.jpg";
 
 function App() {
   return (
@@ -123,6 +124,29 @@ function App() {
                 Weight loss success comes from persistence and healthy lifestyle
                 choices.
               </p>
+            </div>
+          </div>
+        </section>
+        {/* run section  */}
+        <section>
+          <div className="run">
+            <div className="run-content">
+              <h2 className="section-title">
+                Run an Extra <br />
+                Mile Easily
+              </h2>
+              <p className="section-info">
+                Adding an extra run to your fitness routine pushes your limits
+                and accelerates progress. Each additional mile strengthens
+                endurance, boosts metabolism, and enhances overall health,
+                bringing you closer to your goals.
+              </p>
+              <button className="btn-primary hover:bg-[#e6533c]/60! transition">
+                Join Now
+              </button>
+            </div>
+            <div className="run-image">
+              <img src={runIMG} alt="" />
             </div>
           </div>
         </section>
