@@ -332,6 +332,126 @@ function App() {
             </div>
           </div>
         </section>
+        {/* additional section  */}
+        <section className="additional">
+          <div className="additional-content">
+            <h2 className="section-title">Why Choose Us</h2>
+            <p className="section-info">
+              We ensure a comprehensive fitness experience, offering everything
+              you need for effective workouts and overall health improvement.
+            </p>
+          </div>
+          <div className="additional-items">
+            <div className="additional-single-item">
+              <div>
+                <i
+                  className="fa-solid fa-dumbbell"
+                  style={{ color: "#e6e6e6" }}
+                ></i>
+              </div>
+              <div className="additional-item-info">
+                <h4>Free Weights</h4>
+                <p>Exercise as much as you can anytime.</p>
+              </div>
+            </div>
+            <div className="additional-single-item">
+              <div>
+                <i
+                  className="fa-solid fa-shower"
+                  style={{ color: " #e6e6e6" }}
+                ></i>
+              </div>
+              <div className="additional-item-info">
+                <h4>Private Showers</h4>
+                <p>Take bath any time in your own shower.</p>
+              </div>
+            </div>
+            <div className="additional-single-item">
+              <div>
+                <i
+                  className="fa-solid fa-heart-pulse"
+                  style={{ color: "#e6e6e6" }}
+                ></i>
+              </div>
+              <div className="additional-item-info">
+                <h4>Cardio Equipments</h4>
+                <p>Tread mill, ropes, bicycles and many more.</p>
+              </div>
+            </div>
+            <div className="additional-single-item">
+              <div>
+                <i
+                  className="fa-solid fa-restroom"
+                  style={{ color: "#e6e6e6" }}
+                ></i>
+              </div>
+              <div className="additional-item-info">
+                <h4>Private Bathrooms</h4>
+                <p>Come anytime and enjoy your workout.</p>
+              </div>
+            </div>
+            <div className="additional-single-item">
+              <div>
+                <i
+                  className="fa-solid fa-prescription-bottle"
+                  style={{ color: "#e6e6e6" }}
+                ></i>
+              </div>
+              <div className="additional-item-info">
+                <h4>Energy Drinks</h4>
+                <p>Get protein powder and supplement for free.</p>
+              </div>
+            </div>
+            <div className="additional-single-item">
+              <div>
+                <i
+                  className="fa-solid fa-user-shield"
+                  style={{ color: "#e6e6e6" }}
+                ></i>
+              </div>
+              <div className="additional-item-info">
+                <h4>Personal Trainer</h4>
+                <p>Get professional and unique workout tips.</p>
+              </div>
+            </div>
+            <div className="additional-single-item">
+              <div>
+                <i
+                  className="fa-solid fa-suitcase-medical"
+                  style={{ color: "#e6e6e6" }}
+                ></i>
+              </div>
+              <div className="additional-item-info">
+                <h4>First Aid</h4>
+                <p>Get first aid treatment anytime as you need.</p>
+              </div>
+            </div>
+            <div className="additional-single-item">
+              <div>
+                <i
+                  className="fa-solid fa-hot-tub-person"
+                  style={{ color: "#e6e6e6" }}
+                ></i>
+              </div>
+              <div className="additional-item-info">
+                <h4>Hot Water Spa</h4>
+                <p>Relax in warm tub after workout.</p>
+              </div>
+            </div>
+            <div className="additional-single-item">
+              <div>
+                <i
+                  className="fa-solid fa-water-ladder"
+                  style={{ color: "#e6e6e6" }}
+                ></i>
+              </div>
+              <div className="additional-item-info">
+                <h4>Swimming Pool</h4>
+                <p>Playful cardio with swimming exercise.</p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );
