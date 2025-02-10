@@ -453,6 +453,74 @@ function App() {
           </div>
         </section>
       </main>
+      {/* footer section  */}
+      <footer>
+        <div className="all-footer">
+          <div className="footer-content">
+            <div className="footer-col1">
+              <h2 className="orange">Fitness</h2>
+              <p className="white50">
+                Fitness is a journey, not a destination. Consistent effort and
+                dedication transform your body and mind for lifelong well-being.
+              </p>
+            </div>
+            <div className="footer-col2">
+              <div>
+                <h3>Quick Links</h3>
+                <ul>
+                  <li>
+                    <a className="transition hover:text-white!" href="">
+                      Service
+                    </a>
+                  </li>
+                  <li>
+                    <a className="transition hover:text-white!" href="">
+                      Contact Us
+                    </a>
+                  </li>
+                  <li>
+                    <a className="transition hover:text-white!" href="">
+                      Affiliate Program
+                    </a>
+                  </li>
+                  <li>
+                    <a className="transition hover:text-white!" href="">
+                      About Us
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h3>Get Started</h3>
+                <ul>
+                  <li>
+                    <a className="transition hover:text-white!" href="">
+                      Fitness
+                    </a>
+                  </li>
+                  <li>
+                    <a className="transition hover:text-white!" href="">
+                      Platform
+                    </a>
+                  </li>
+                  <li>
+                    <a className="transition hover:text-white!" href="">
+                      Workout Library
+                    </a>
+                  </li>
+                  <li>
+                    <a className="transition hover:text-white!" href="">
+                      App Design
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <p className="white50">All rights reserved @Fitness 2024</p>
+        </div>
+      </footer>
     </div>
   );
 }
