@@ -248,11 +248,19 @@ function App() {
               </p>
               <div className="input-table">
                 <div className="input-row-col2">
-                  <input type="number" placeholder="Height/cm" />
-                  <input type="number" placeholder="Weight/kg" />
+                  <input
+                    className="px-2"
+                    type="number"
+                    placeholder="Height/cm"
+                  />
+                  <input
+                    className="px-2"
+                    type="number"
+                    placeholder="Weight/kg"
+                  />
                 </div>
                 <div className="input-row-col2">
-                  <input type="number" placeholder="Age" />
+                  <input className="px-2" type="number" placeholder="Age" />
                   <select>
                     <option value="">Gender</option>
                     <option value="">Male</option>

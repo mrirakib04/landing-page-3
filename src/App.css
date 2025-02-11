@@ -427,6 +427,7 @@ header ul li a:hover {
   background-color: rgb(4, 66, 70);
   transform: skew(-10deg);
   transition: all 0.5s ease;
+  cursor: pointer;
 }
 .additional-item-info {
   border-left: 2px solid grey;
@@ -485,4 +486,175 @@ footer hr {
 }
 .all-footer > p {
   text-align: center;
+}
+
+/* responsive style */
+
+/* responsive design for small device */
+@media screen and (max-width: 576px) {
+  .nav-menu {
+    display: none;
+  }
+  .nav-menu-bar {
+    display: block;
+    font-size: 24px;
+  }
+  .btn-primary {
+    padding: 10px 16px;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+  header {
+    padding: 30px 20px 0;
+  }
+  .banner {
+    grid-template-columns: 1fr;
+  }
+  .banner-content {
+    max-width: 90vw;
+  }
+  .banner-image {
+    max-width: 70vw;
+    margin: 0 auto;
+  }
+  .banner-content h1 {
+    font-size: 54px;
+    margin-top: 30px;
+  }
+  .tutorial {
+    bottom: 150px;
+    left: 30px;
+  }
+  .workout {
+    top: 70px;
+    right: -20px;
+  }
+  section {
+    padding-top: 80px;
+  }
+  .section-title {
+    font-size: 40px;
+  }
+  .habits-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .habits-image-content h4 {
+    margin-top: 20px;
+  }
+  .run {
+    flex-direction: column;
+    gap: 80px;
+  }
+  .exercise-image1,
+  .exercise-image5 {
+    grid-column: 1 / span 5;
+  }
+  .exercise-image2,
+  .exercise-image6 {
+    grid-column: 6 / span 7;
+  }
+  .exercise-image3 {
+    grid-column: 1 / span 6;
+  }
+  .exercise-image4 {
+    grid-column: 7 / span 6;
+  }
+  .training-image-box,
+  .training-image-box img {
+    height: 150px;
+  }
+  .calculator-content {
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+  .team-members {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .additional-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-content,
+  .footer-col2 {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+  .footer-col1 {
+    width: 90%;
+  }
+}
+
+/* responsive design for medium device */
+@media screen and (min-width: 576.02px) and (max-width: 992px) {
+  header {
+    padding: 50px 50px 0;
+  }
+  .banner {
+    grid-template-columns: 1fr;
+  }
+  .banner-content {
+    max-width: 80vw;
+  }
+  .banner-image {
+    max-width: 60vw;
+    margin: 0 auto;
+  }
+  .tutorial {
+    bottom: 150px;
+    left: 10px;
+  }
+  .workout {
+    top: 80px;
+    right: -20px;
+  }
+  .habits-content {
+    grid-template-columns: repeat(2, 0.3fr);
+    justify-content: center;
+  }
+  .habits-image-content h4 {
+    margin-top: 20px;
+  }
+  .training-image {
+    grid-template-columns: repeat(13, 1fr);
+  }
+  .exercise-image1 {
+    grid-column: 1 / span 4;
+  }
+  .exercise-image2 {
+    grid-column: 5 / span 5;
+  }
+  .exercise-image3 {
+    grid-column: 10 / span 4;
+  }
+  .exercise-image4 {
+    grid-column: 1 / span 5;
+  }
+  .exercise-image5 {
+    grid-column: 6 / span 4;
+  }
+  .exercise-image6 {
+    grid-column: 10 / span 4;
+  }
+  .training-image-box,
+  .training-image-box img {
+    height: 170px;
+  }
+  .calculator-content {
+    padding: 50px 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+  .additional-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-content {
+    width: 80%;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+  .footer-col1 {
+    width: 70%;
+  }
 }
